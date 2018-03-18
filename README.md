@@ -4,6 +4,8 @@
 
 A minimal Chrome extension for debugging web components built with [Stencil](https://stenciljs.com/).
 
+Compatibility: Stencil 0.7.0 and up
+
 Provided inspections:
 <details>
    <summary>Props</summary>

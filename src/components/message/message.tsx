@@ -1,7 +1,7 @@
 import { Component, Prop } from '@stencil/core';
 
 @Component({
-  tag: 'si-message',
+  tag: 'sti-message',
   styleUrl: 'message.pcss',
   shadow: true
 })

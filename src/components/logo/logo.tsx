@@ -1,7 +1,7 @@
 import { Component, Prop } from '@stencil/core';
 
 @Component({
-  tag: 'si-logo',
+  tag: 'sti-logo',
   styleUrl: 'logo.pcss',
   shadow: true
 })

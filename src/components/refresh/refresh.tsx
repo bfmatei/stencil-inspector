@@ -3,7 +3,7 @@ import { Component, Listen } from '@stencil/core';
 import { Injector } from '~helpers/injector';
 
 @Component({
-  tag: 'si-refresh',
+  tag: 'sti-refresh',
   styleUrl: 'refresh.pcss',
   shadow: true
 })

@@ -10,7 +10,7 @@ enum ExpandedValues {
 }
 
 @Component({
-  tag: 'si-item',
+  tag: 'sti-item',
   styleUrl: 'item.pcss',
   shadow: true
 })
@@ -57,9 +57,9 @@ export class Item {
         {
           items && items.length > 0 ?
             items.map(currentItem => (
-              <si-item item={currentItem} print={item.type === 'function'} dark={this.dark} />
+              <sti-item item={currentItem} print={item.type === 'function'} dark={this.dark} />
             )) :
-            <si-message
+            <sti-message
               message="Object has no properties."
               dark={this.dark}
             />
@@ -74,7 +74,7 @@ export class Item {
         <div class="item">
           {
             this.item.expand.enable ?
-              <si-arrow
+              <sti-arrow
                 direction={this.expanded === ExpandedValues.ITEM}
                 onClick={this.arrowClickHandlerBinder(ExpandedValues.ITEM)}
                 class="arrow"
@@ -87,7 +87,7 @@ export class Item {
           }}>
             {this.item.label}
           </div>
-          <si-item-value
+          <sti-item-value
             class={{
               print: this.print
             }}

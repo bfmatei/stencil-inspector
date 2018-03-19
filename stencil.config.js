@@ -1,6 +1,6 @@
 exports.config = {
   buildEs5: true,
-  namespace: 'stencilinspector',
+  namespace: 'sti',
   globalStyle: [
     'src/styles/global.css'
   ],

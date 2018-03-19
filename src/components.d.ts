@@ -26,29 +26,29 @@ import {
 } from '~helpers/declarations';
 
 import {
-  Arrow as SiArrow
+  Arrow as StiArrow
 } from './components/arrow/arrow';
 
 declare global {
-  interface HTMLSiArrowElement extends SiArrow, HTMLStencilElement {
+  interface HTMLStiArrowElement extends StiArrow, HTMLStencilElement {
   }
-  var HTMLSiArrowElement: {
-    prototype: HTMLSiArrowElement;
-    new (): HTMLSiArrowElement;
+  var HTMLStiArrowElement: {
+    prototype: HTMLStiArrowElement;
+    new (): HTMLStiArrowElement;
   };
   interface HTMLElementTagNameMap {
-    "si-arrow": HTMLSiArrowElement;
+    "sti-arrow": HTMLStiArrowElement;
   }
   interface ElementTagNameMap {
-    "si-arrow": HTMLSiArrowElement;
+    "sti-arrow": HTMLStiArrowElement;
   }
   namespace JSX {
     interface IntrinsicElements {
-      "si-arrow": JSXElements.SiArrowAttributes;
+      "sti-arrow": JSXElements.StiArrowAttributes;
     }
   }
   namespace JSXElements {
-    export interface SiArrowAttributes extends HTMLAttributes {
+    export interface StiArrowAttributes extends HTMLAttributes {
       direction?: boolean;
     }
   }
@@ -56,29 +56,29 @@ declare global {
 
 
 import {
-  Category as SiCategory
+  Category as StiCategory
 } from './components/category/category';
 
 declare global {
-  interface HTMLSiCategoryElement extends SiCategory, HTMLStencilElement {
+  interface HTMLStiCategoryElement extends StiCategory, HTMLStencilElement {
   }
-  var HTMLSiCategoryElement: {
-    prototype: HTMLSiCategoryElement;
-    new (): HTMLSiCategoryElement;
+  var HTMLStiCategoryElement: {
+    prototype: HTMLStiCategoryElement;
+    new (): HTMLStiCategoryElement;
   };
   interface HTMLElementTagNameMap {
-    "si-category": HTMLSiCategoryElement;
+    "sti-category": HTMLStiCategoryElement;
   }
   interface ElementTagNameMap {
-    "si-category": HTMLSiCategoryElement;
+    "sti-category": HTMLStiCategoryElement;
   }
   namespace JSX {
     interface IntrinsicElements {
-      "si-category": JSXElements.SiCategoryAttributes;
+      "sti-category": JSXElements.StiCategoryAttributes;
     }
   }
   namespace JSXElements {
-    export interface SiCategoryAttributes extends HTMLAttributes {
+    export interface StiCategoryAttributes extends HTMLAttributes {
       category?: ParsedCategoryData;
       dark?: boolean;
     }
@@ -87,29 +87,29 @@ declare global {
 
 
 import {
-  ItemValue as SiItemValue
+  ItemValue as StiItemValue
 } from './components/item-value/item-value';
 
 declare global {
-  interface HTMLSiItemValueElement extends SiItemValue, HTMLStencilElement {
+  interface HTMLStiItemValueElement extends StiItemValue, HTMLStencilElement {
   }
-  var HTMLSiItemValueElement: {
-    prototype: HTMLSiItemValueElement;
-    new (): HTMLSiItemValueElement;
+  var HTMLStiItemValueElement: {
+    prototype: HTMLStiItemValueElement;
+    new (): HTMLStiItemValueElement;
   };
   interface HTMLElementTagNameMap {
-    "si-item-value": HTMLSiItemValueElement;
+    "sti-item-value": HTMLStiItemValueElement;
   }
   interface ElementTagNameMap {
-    "si-item-value": HTMLSiItemValueElement;
+    "sti-item-value": HTMLStiItemValueElement;
   }
   namespace JSX {
     interface IntrinsicElements {
-      "si-item-value": JSXElements.SiItemValueAttributes;
+      "sti-item-value": JSXElements.StiItemValueAttributes;
     }
   }
   namespace JSXElements {
-    export interface SiItemValueAttributes extends HTMLAttributes {
+    export interface StiItemValueAttributes extends HTMLAttributes {
       canExpand?: boolean;
       dark?: boolean;
       expanded?: boolean;
@@ -121,29 +121,29 @@ declare global {
 
 
 import {
-  Item as SiItem
+  Item as StiItem
 } from './components/item/item';
 
 declare global {
-  interface HTMLSiItemElement extends SiItem, HTMLStencilElement {
+  interface HTMLStiItemElement extends StiItem, HTMLStencilElement {
   }
-  var HTMLSiItemElement: {
-    prototype: HTMLSiItemElement;
-    new (): HTMLSiItemElement;
+  var HTMLStiItemElement: {
+    prototype: HTMLStiItemElement;
+    new (): HTMLStiItemElement;
   };
   interface HTMLElementTagNameMap {
-    "si-item": HTMLSiItemElement;
+    "sti-item": HTMLStiItemElement;
   }
   interface ElementTagNameMap {
-    "si-item": HTMLSiItemElement;
+    "sti-item": HTMLStiItemElement;
   }
   namespace JSX {
     interface IntrinsicElements {
-      "si-item": JSXElements.SiItemAttributes;
+      "sti-item": JSXElements.StiItemAttributes;
     }
   }
   namespace JSXElements {
-    export interface SiItemAttributes extends HTMLAttributes {
+    export interface StiItemAttributes extends HTMLAttributes {
       dark?: boolean;
       item?: ItemData;
       print?: boolean;
@@ -153,29 +153,29 @@ declare global {
 
 
 import {
-  Logo as SiLogo
+  Logo as StiLogo
 } from './components/logo/logo';
 
 declare global {
-  interface HTMLSiLogoElement extends SiLogo, HTMLStencilElement {
+  interface HTMLStiLogoElement extends StiLogo, HTMLStencilElement {
   }
-  var HTMLSiLogoElement: {
-    prototype: HTMLSiLogoElement;
-    new (): HTMLSiLogoElement;
+  var HTMLStiLogoElement: {
+    prototype: HTMLStiLogoElement;
+    new (): HTMLStiLogoElement;
   };
   interface HTMLElementTagNameMap {
-    "si-logo": HTMLSiLogoElement;
+    "sti-logo": HTMLStiLogoElement;
   }
   interface ElementTagNameMap {
-    "si-logo": HTMLSiLogoElement;
+    "sti-logo": HTMLStiLogoElement;
   }
   namespace JSX {
     interface IntrinsicElements {
-      "si-logo": JSXElements.SiLogoAttributes;
+      "sti-logo": JSXElements.StiLogoAttributes;
     }
   }
   namespace JSXElements {
-    export interface SiLogoAttributes extends HTMLAttributes {
+    export interface StiLogoAttributes extends HTMLAttributes {
       dark?: boolean;
     }
   }
@@ -183,29 +183,29 @@ declare global {
 
 
 import {
-  Main as SiMain
+  Main as StiMain
 } from './components/main/main';
 
 declare global {
-  interface HTMLSiMainElement extends SiMain, HTMLStencilElement {
+  interface HTMLStiMainElement extends StiMain, HTMLStencilElement {
   }
-  var HTMLSiMainElement: {
-    prototype: HTMLSiMainElement;
-    new (): HTMLSiMainElement;
+  var HTMLStiMainElement: {
+    prototype: HTMLStiMainElement;
+    new (): HTMLStiMainElement;
   };
   interface HTMLElementTagNameMap {
-    "si-main": HTMLSiMainElement;
+    "sti-main": HTMLStiMainElement;
   }
   interface ElementTagNameMap {
-    "si-main": HTMLSiMainElement;
+    "sti-main": HTMLStiMainElement;
   }
   namespace JSX {
     interface IntrinsicElements {
-      "si-main": JSXElements.SiMainAttributes;
+      "sti-main": JSXElements.StiMainAttributes;
     }
   }
   namespace JSXElements {
-    export interface SiMainAttributes extends HTMLAttributes {
+    export interface StiMainAttributes extends HTMLAttributes {
       
     }
   }
@@ -213,29 +213,29 @@ declare global {
 
 
 import {
-  Message as SiMessage
+  Message as StiMessage
 } from './components/message/message';
 
 declare global {
-  interface HTMLSiMessageElement extends SiMessage, HTMLStencilElement {
+  interface HTMLStiMessageElement extends StiMessage, HTMLStencilElement {
   }
-  var HTMLSiMessageElement: {
-    prototype: HTMLSiMessageElement;
-    new (): HTMLSiMessageElement;
+  var HTMLStiMessageElement: {
+    prototype: HTMLStiMessageElement;
+    new (): HTMLStiMessageElement;
   };
   interface HTMLElementTagNameMap {
-    "si-message": HTMLSiMessageElement;
+    "sti-message": HTMLStiMessageElement;
   }
   interface ElementTagNameMap {
-    "si-message": HTMLSiMessageElement;
+    "sti-message": HTMLStiMessageElement;
   }
   namespace JSX {
     interface IntrinsicElements {
-      "si-message": JSXElements.SiMessageAttributes;
+      "sti-message": JSXElements.StiMessageAttributes;
     }
   }
   namespace JSXElements {
-    export interface SiMessageAttributes extends HTMLAttributes {
+    export interface StiMessageAttributes extends HTMLAttributes {
       dark?: boolean;
       message?: string;
     }
@@ -244,29 +244,29 @@ declare global {
 
 
 import {
-  Refresh as SiRefresh
+  Refresh as StiRefresh
 } from './components/refresh/refresh';
 
 declare global {
-  interface HTMLSiRefreshElement extends SiRefresh, HTMLStencilElement {
+  interface HTMLStiRefreshElement extends StiRefresh, HTMLStencilElement {
   }
-  var HTMLSiRefreshElement: {
-    prototype: HTMLSiRefreshElement;
-    new (): HTMLSiRefreshElement;
+  var HTMLStiRefreshElement: {
+    prototype: HTMLStiRefreshElement;
+    new (): HTMLStiRefreshElement;
   };
   interface HTMLElementTagNameMap {
-    "si-refresh": HTMLSiRefreshElement;
+    "sti-refresh": HTMLStiRefreshElement;
   }
   interface ElementTagNameMap {
-    "si-refresh": HTMLSiRefreshElement;
+    "sti-refresh": HTMLStiRefreshElement;
   }
   namespace JSX {
     interface IntrinsicElements {
-      "si-refresh": JSXElements.SiRefreshAttributes;
+      "sti-refresh": JSXElements.StiRefreshAttributes;
     }
   }
   namespace JSXElements {
-    export interface SiRefreshAttributes extends HTMLAttributes {
+    export interface StiRefreshAttributes extends HTMLAttributes {
       
     }
   }

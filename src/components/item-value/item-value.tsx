@@ -5,7 +5,7 @@ import { ItemData } from '~helpers/declarations';
 import { Injector } from '~helpers/injector';
 
 @Component({
-  tag: 'si-item-value',
+  tag: 'sti-item-value',
   styleUrl: 'item-value.pcss',
   shadow: true
 })
@@ -136,7 +136,7 @@ export class ItemValue {
     if (!this.editMode) {
       return [
         this.canExpand && this.item.expand.enable ?
-          <si-arrow
+          <sti-arrow
             direction={this.expanded}
             onClick={this.onExpand}
             class="arrow"

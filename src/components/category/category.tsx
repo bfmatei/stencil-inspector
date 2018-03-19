@@ -4,7 +4,7 @@ import autobind from '~decorators/autobind';
 import { ItemData, ParsedCategoryData } from '~helpers/declarations';
 
 @Component({
-  tag: 'si-category',
+  tag: 'sti-category',
   styleUrl: 'category.pcss',
   shadow: true
 })
@@ -33,7 +33,7 @@ export class Category {
   @autobind
   private renderChild(item: ItemData) {
     return (
-      <si-item item={item} class="item" dark={this.dark} />
+      <sti-item item={item} class="item" dark={this.dark} />
     );
   }
 
@@ -47,7 +47,7 @@ export class Category {
       '';
 
     return actualMessage ?
-      <si-message message={actualMessage} dark={this.dark} /> :
+      <sti-message message={actualMessage} dark={this.dark} /> :
       this.category.items.map(this.renderChild);
   }
 
@@ -55,7 +55,7 @@ export class Category {
     return (
       <div>
         <h3 class="header" onClick={this.headerClickHandler}>
-          <si-arrow class="arrow" direction={this.expanded} />
+          <sti-arrow class="arrow" direction={this.expanded} />
           <div class="label">
             {this.category.label}
           </div>

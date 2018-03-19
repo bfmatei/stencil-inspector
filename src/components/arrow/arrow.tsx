@@ -1,7 +1,7 @@
 import { Component, Prop } from '@stencil/core';
 
 @Component({
-  tag: 'si-arrow',
+  tag: 'sti-arrow',
   styleUrl: 'arrow.pcss',
   shadow: true
 })

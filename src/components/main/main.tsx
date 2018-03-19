@@ -5,7 +5,7 @@ import { Injector } from '~helpers/injector';
 import { ParsedGroupData } from '~helpers/declarations';
 
 @Component({
-  tag: 'si-main',
+  tag: 'sti-main',
   styleUrl: 'main.pcss',
   shadow: true
 })
@@ -51,7 +51,7 @@ export class Main {
   @autobind
   private renderChild(category) {
     return (
-      <si-category category={category} class="category" dark={this.dark} />
+      <sti-category category={category} class="category" dark={this.dark} />
     );
   }
 
@@ -71,12 +71,12 @@ export class Main {
     }
 
     return [
-      <si-logo class="logo" dark={this.dark} />,
+      <sti-logo class="logo" dark={this.dark} />,
       <h2 class="menu">
-        <si-refresh />
+        <sti-refresh />
       </h2>,
       actualMessage ?
-        <si-message message={actualMessage} class="message" dark={this.dark} /> :
+        <sti-message message={actualMessage} class="message" dark={this.dark} /> :
         itemsKeys.map(this.renderChild)
     ];
   }

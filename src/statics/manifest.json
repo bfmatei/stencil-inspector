@@ -3,8 +3,8 @@
   "name": "Stencil Inspector",
   "version": "0.0.1",
   "minimum_chrome_version": "50",
-  "description": "A Chrome plugin adding a new inspector pane to the Elements panel, providing Stencil-specific information about selected elements.",
-  "content_security_policy": "script-src 'self' 'sha256-MjJxYdCk/SBEDnMjGd0KlHCVLLhtynwdaD64qubBiL8=' 'unsafe-eval'; object-src 'self'",
+  "description": "A minimal Chrome extension for debugging web components built with Stencil",
+  "content_security_policy": "script-src 'self' 'sha256-jcFAU1aKNjTquPpG7ZAFni1L+Q5BhoTMs3jiVglJ/+U=' 'unsafe-eval'; object-src 'self'",
   "background": {
     "scripts": [
       "helpers/background-script.js"
